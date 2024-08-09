@@ -10,6 +10,8 @@ self: super: {
 
         flash-attn-rotary = callPackage ./pkgs/python-modules/flash-attn-rotary { };
 
+        flashinfer = callPackage ./pkgs/python-modules/flashinfer { };
+
         hf-transfer = callPackage ./pkgs/python-modules/hf-transfer { };
 
         marlin-kernels = callPackage ./pkgs/python-modules/marlin-kernels { };
