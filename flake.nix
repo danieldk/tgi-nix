@@ -35,10 +35,12 @@
           };
           python3Packages = with pkgs.python3.pkgs; {
             inherit
+
               fbgemm-gpu
               flash-attn
               flash-attn-layer-norm
               flash-attn-rotary
+              flashinfer
               hf-transfer
               marlin-kernels
               opentelemetry-instrumentation-grpc
